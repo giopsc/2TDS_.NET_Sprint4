@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doracorde.API", "Doracorde.API.csproj", "{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5DB2B83-CF48-4F92-A292-19A5A2C6B7ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doracorde.Database", "..\Doracorde.Database\Doracorde.Database.csproj", "{3A3F19C1-0B8D-49E1-BE84-C963B37C9B3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doracorde.Repository", "..\Doracorde.Repository\Doracorde.Repository.csproj", "{6142DD5D-C298-4004-95F5-1AB4FD766AF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doracorde.Services", "..\Doracorde.Services\Doracorde.Services.csproj", "{B82BC06E-33E2-4B9F-A84D-87F219B3D283}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D213B02F-0772-41E1-A4B8-0E016EA4E309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doracorde.Services.Test", "..\Doracorde.Services.Test\Doracorde.Services.Test.csproj", "{1CE75575-5C24-4644-BDC4-652A4542E0CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3F19C1-0B8D-49E1-BE84-C963B37C9B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3F19C1-0B8D-49E1-BE84-C963B37C9B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3F19C1-0B8D-49E1-BE84-C963B37C9B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3F19C1-0B8D-49E1-BE84-C963B37C9B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6142DD5D-C298-4004-95F5-1AB4FD766AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6142DD5D-C298-4004-95F5-1AB4FD766AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6142DD5D-C298-4004-95F5-1AB4FD766AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6142DD5D-C298-4004-95F5-1AB4FD766AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82BC06E-33E2-4B9F-A84D-87F219B3D283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82BC06E-33E2-4B9F-A84D-87F219B3D283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82BC06E-33E2-4B9F-A84D-87F219B3D283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82BC06E-33E2-4B9F-A84D-87F219B3D283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE75575-5C24-4644-BDC4-652A4542E0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE75575-5C24-4644-BDC4-652A4542E0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE75575-5C24-4644-BDC4-652A4542E0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE75575-5C24-4644-BDC4-652A4542E0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5} = {D5DB2B83-CF48-4F92-A292-19A5A2C6B7ED}
+		{3A3F19C1-0B8D-49E1-BE84-C963B37C9B3A} = {D5DB2B83-CF48-4F92-A292-19A5A2C6B7ED}
+		{6142DD5D-C298-4004-95F5-1AB4FD766AF6} = {D5DB2B83-CF48-4F92-A292-19A5A2C6B7ED}
+		{B82BC06E-33E2-4B9F-A84D-87F219B3D283} = {D5DB2B83-CF48-4F92-A292-19A5A2C6B7ED}
+		{1CE75575-5C24-4644-BDC4-652A4542E0CB} = {D213B02F-0772-41E1-A4B8-0E016EA4E309}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D68727C0-E47A-40B0-B5A6-A58AABCE1CF2}
+	EndGlobalSection
+EndGlobal

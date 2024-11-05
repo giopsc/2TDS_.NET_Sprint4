@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "93VIZQSnco1CparTNBd94aYUSCS1avvyScaZEDaWzMg=",
+  "Source": "Doracorde.API",
+  "BasePath": "_content/Doracorde.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
